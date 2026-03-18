@@ -30,7 +30,7 @@ function App() {
          content={FirstArticle}
          
          >
-          <h1 style={{background:"yellow", color:"black"}}>hello world</h1>
+          <h1 style={{background:"yellow",yy color:"black"}}>hello world</h1>
         </Article>
 
 
@@ -80,8 +80,3 @@ function App() {
       
 
 >>>>>>> bcd40e3eafcacfea8245c5d1057887423f08442e
-    </div>
-  );
-}
-
-export default App;
