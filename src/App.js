@@ -4,7 +4,8 @@ import Article from './Article';
 
 function App() {
 
-  const FirstArticle="gggggfff"
+  const FirstArticle="EL ENNAHAR TV"
+
   return (
     <div className="App">
       <header className="App-header">
@@ -22,7 +23,17 @@ function App() {
         </a>
         
 
-        <Article name="ahmed" username="tafzi" content={FirstArticle}/>
+        <Article
+         name="ahmed" 
+         username="tafzi" 
+         content={FirstArticle}
+         
+         >
+          <h1 style={{background:"yellow", color:"black"}}>hello world</h1>
+        </Article>
+
+
+
         <Article name="ahmed" username="tafzi" content={FirstArticle}/>
         <Article name="ahmed" username="tafzi" content={FirstArticle}/>
         <Article name="ahmed" username="tafzi" content={FirstArticle}/>
