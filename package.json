@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "propslearning",
+=======
+  "name": "first-challenge",
+>>>>>>> bcd40e3eafcacfea8245c5d1057887423f08442e
   "version": "0.1.0",
   "private": true,
   "dependencies": {
