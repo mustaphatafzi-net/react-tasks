@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import Article from './Article';
 
 function App() {
+
+  const FirstArticle="gggggfff"
   return (
     <div className="App">
       <header className="App-header">
@@ -12,12 +15,20 @@ function App() {
         <a
           className="App-link"
           href="https://reactjs.org"
-          target="_blank"
+          target="_blank"   
           rel="noopener noreferrer"
         >
           Learn React
         </a>
-      </header>
+        
+
+        <Article name="ahmed" username="tafzi" content={FirstArticle}/>
+        <Article name="ahmed" username="tafzi" content={FirstArticle}/>
+        <Article name="ahmed" username="tafzi" content={FirstArticle}/>
+        <Article name="ahmed" username="tafzi" content={FirstArticle}/>
+
+
+      </header> 
     </div>
   );
 }
