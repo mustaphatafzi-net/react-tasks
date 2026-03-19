@@ -17,7 +17,7 @@ function App() {
 
       {/* POST CONTAINER */}
       <div style={{ width : "70%"}}>
-      <Post/>
+      <Post postName="tafziFamily" post="body"/>
       <Post/>
       <Post/>
       <Post/>
